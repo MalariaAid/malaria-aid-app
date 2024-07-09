@@ -40,7 +40,7 @@ const Header = () => {
               </div>
             </div>
             <button className='lg:hidden bg-white border p-2 rounded-md' onClick={() => setOpenMobileNav((prevState) => !prevState)} >
-              {openMobileNav ? <MdMenu className='text-[#0f6429]' /> : <MdClose className='text-[#0f6429]' /> }
+              {openMobileNav ? <MdClose className='text-[#0f6429]' />  :<MdMenu className='text-[#0f6429]' /> }
             </button>
         </nav>
         <div className={`${openMobileNav ? "left-0 opacity-100 " : "-left-[100%] opacity-0" } lg:hidden duration-300 absolute h-dvh bg-white w-full z-30 p-5`} >
