@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white min-h-dvh scroll-smooth max-w-[1440px] w-full;
+  }
+}
+
+.hover-border-bottom-50::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #0f6429;
+  transition: width 0.3s;
+  margin: 0 auto;
+}
+
+.hover-border-bottom-50:hover::after {
+  width: 100%;
+}
