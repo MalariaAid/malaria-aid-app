@@ -9,9 +9,9 @@ const Home = () => {
     <>
     <section className="w-full flex flex-col gap-y-20 lg:gap-y-10">
       <div className="">
-        <article className="w-full lg:max-w-[1032px] mx-auto my-[40px] p-4 flex flex-col gap-y-4 lg:gap-y-6">
+        <article className="w-full lg:max-w-[1032px] mx-auto my-[25px] lg:my-[40px] p-4 flex flex-col gap-y-4 lg:gap-y-6">
           <h2 className='text-2xl lg:text-5xl font-bold'>Hello, Joy</h2>
-          <h4 className='text-2xl lg:text-5xl font-normal'>Identification No: ABC754321DE</h4>
+          <h4 className='text-lg md:text-2xl lg:text-5xl font-normal'>Identification No: ABC754321DE</h4>
           <div className="w-full">
             <img src='./images/hero-1.png' alt='hero-1' className='w-full h-full object-cover rounded-md pointer-events-none' />
           </div>
@@ -68,12 +68,12 @@ const Home = () => {
 
 
       <div className="w-full">
-        <article className='grid grid-cols-1 lg:grid-cols-12 gap-10 p-4 lg:p-16'>
-          <div className="col-span-5 flex flex-col gap-y-5 self-center">
-            <h1 className='text-4xl lg:text-5xl font-bold'>Latest Report on Malaria in Nigeria</h1>
+        <article className='w-full grid grid-cols-12 gap-2 lg:gap-10 p-4 lg:p-16'>
+          <div className="col-span-12 lg:col-span-5 flex flex-col gap-y-5 self-center">
+            <h1 className='text-4xl lg:text-5xl font-bold '>Latest Report on Malaria in Nigeria</h1>
             <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur. Orci viverra ornare aenean augue in eu morbi non accumsan. Morbi a tellus lacus comm.</p>
           </div>
-          <div className="col-span-7 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="col-span-12 lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-10">
             
             <div className="flex flex-col gap-y-5">
               <div className="">

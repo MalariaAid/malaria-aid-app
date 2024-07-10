@@ -31,7 +31,7 @@ const Register = () => {
         paddingBottom: "30px",
         backgroundImage: `url('./images/mosquito-bg.png')`
         }}>
-          <div className="w-full h-full lg:w-[615px] flex flex-col gap-3 mx-auto bg-white rounded-md  py-[55px] px-5 lg:px-[93px]">
+          <div className="w-full h-full lg:w-[615px] flex flex-col gap-3 mx-auto bg-white rounded-md  py-[55px] lg:px-[93px]">
               <h2 className='text-center text-4xl font-bold text-black/90'>Register</h2>
               <p className='text-center text-gray-600 text-xl font-normal '>Hey there, lets get you started</p>
             <form className='w-full h-full flex flex-col gap-3 p-5' >
@@ -63,7 +63,7 @@ const Register = () => {
                   <div className="">
                     <img src="./images/google-logo.png" alt="google-logo" className='h-[25px] w-[25px]' />
                   </div>
-                  <span className='text-[20px] text-[#308b4c] font-medium '>Continue with Google</span>
+                  <span className='text-lg md:text-[20px] text-[#308b4c] font-medium '>Continue with Google</span>
                 </button>
 
               </div>

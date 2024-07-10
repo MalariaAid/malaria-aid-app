@@ -53,10 +53,10 @@ const Consultation = () => {
             <h2 className='text-2xl font-bold my-6'>Consultation</h2>
             
             <div className="flex flex-col gap-y-5">
-                <div className="w-full bg-white flex flex-col gap-4 px-5 py-8 rounded-md ">
+                <div className="w-full bg-white flex flex-col gap-4 px-3 md:px-5 py-8 rounded-md ">
                     <button type='button' className="w-full flex items-center justify-between">
-                        <div className="flex-1 flex items-center gap-4">
-                            <h2 className='font-semibold'>Upcoming Appointment</h2>
+                        <div className="flex-1 flex items-center gap-4 ">
+                            <h2 className='text-sm md:text-base font-semibold'>Upcoming Appointment</h2>
                             <span>12/03/2024</span>
                         </div>
                         <div className="ml-auto w-[24px] shrink-0">
@@ -68,12 +68,12 @@ const Consultation = () => {
                 
                     <div className="w-full flex items-center justify-center gap-5">
                         <button type='button' className="flex items-center gap-x-3 hover:bg-gray-100 duration-300 p-2.5 rounded-md">
-                            <img src="./images/add-icon.png" alt="add icon" className='h-[30px] w-[27px] ' />
-                            <span className='text-base'>Add to Calendar</span>
+                            <img src="./images/add-icon.png" alt="add icon" className='h-6 md:h-[30px] w-[27px]' />
+                            <span className='text-sm md:text-base whitespace-nowrap'>Add to Calendar</span>
                         </button>
 
                         <button type='button' className="">
-                            <span className='bg-[#0f6429] hover:bg-[#308b4c] w-max duration-300 p-3 px-6 rounded-md text-white '>Reschedule</span>
+                            <span className='bg-[#0f6429] hover:bg-[#308b4c] w-max duration-300 p-2.5 md:p-3 md:px-6 rounded-md text-white '>Reschedule</span>
                         </button>
                     </div>
                 </div>
@@ -90,26 +90,26 @@ const Consultation = () => {
                         
                     </button>
                     <div className='text-gray-500 text-left py-5 flex flex-col '>
-                        <div className="flex items-center gap-x-3">
+                        <div className="flex items-center justify-between md:justify-start gap-x-3">
                             <span className='text-base font-bold text-black/90'>Appointment Attended:</span>
                             <span>12/01/2024</span>
                         </div>
-                        <div className="flex items-center gap-x-3">
+                        <div className="flex items-center justify-between md:justify-start gap-x-3">
                             <span className='text-base font-bold text-black/90'>Name of Doctor:</span>
                             <span>Dr Tade John</span>
                         </div>
-                        <div className="flex items-center  gap-x-20">
-                            <div className="flex items-center gap-x-3">
+                        <div className="flex flex-col md:flex-row md:items-center  gap-x-20">
+                            <div className="flex items-center justify-between md:justify-start gap-x-3 whitespace-nowrap">
                                 <span className='text-base font-bold text-black/90'>Centre:</span>
                                 <span>Tade Health Centre</span>
                             </div>
-                            <div className="">
+                            <div className="flex items-center justify-between md:justify-start">
                                 <span className='text-base font-bold text-black/90'>Time: </span> <span>2:00pm</span>
                             </div>
                         </div>
                     </div>
-                    <div className="bg-[#b1d8c1] w-full rounded-lg p-5 flex items-center gap-x-4 ">
-                        <span className='text-base font-bold text-black/90'>Appointment Attended</span>
+                    <div className="bg-[#b1d8c1] w-full rounded-lg p-5 flex items-center justify-between md:justify-start gap-x-4 ">
+                        <span className='text-sm md:text-base font-bold text-black/90 whitespace-nowrap'>Appointment Attended</span>
                         <span>12/01/2024</span>
                     </div>
                 </div>
