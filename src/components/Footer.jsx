@@ -19,7 +19,7 @@ const Footer = () => {
       
       <div className="px-4 w-full lg:max-w-[1238px] lg:mx-auto grid grid-cols-1 absolute left-[50%] -translate-x-[50%] top-0 transform -translate-y-[50%] ">
         <div className="grid place-content-center grid-cols-1 lg:grid-cols-2 gap-4 p-4 py-10 rounded-lg bg-[#77a284]">
-          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-center lg:text-right whitespace-nowrap px-3 md:px-5 self-center'>Subscribe to our newsletter</h2>
+          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-center lg:text-right whitespace-nowrap px-2 md:px-5 self-center'>Subscribe to our newsletter</h2>
           <form className='w-full relative flex flex-col gap-3 lg:flex-row '>
             <input type="text" placeholder='Enter email address' className='p-2.5 w-full rounded-lg' />
             <button type='button' className='lg:absolute lg:top-[50%] lg:-translate-y-[50%] lg:right-0 bg-[#0f6429] hover:bg-[#308b4c] lg:w-max duration-300 p-2.5 px-10 rounded-md lg:rounded-r-md lg:rounded-l-none text-white '>Send</button>

@@ -29,7 +29,7 @@ const Login = () => {
         }}>
           <div className="w-full lg:w-[615px] flex flex-col gap-3 mx-auto bg-white rounded-md py-[55px] lg:px-[93px]">
               <h2 className='text-center text-4xl font-bold text-black/90'>Log In</h2>
-              <p className='text-center text-gray-600 text-xl font-normal '>Sign into your account to continue</p>
+              <p className='text-center text-gray-600 text-sm sm:text-xl font-normal '>Sign into your account to continue</p>
             <form className='w-full flex flex-col gap-3 p-5' >
               
               <div className="w-full flex flex-col gap-2">
