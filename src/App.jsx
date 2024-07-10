@@ -8,12 +8,14 @@ import Location from "./pages/Location/Location"
 import Services from "./pages/Services/Services"
 import ForgotPassword from "./pages/auth/ForgotPassword"
 import Consultation from "./pages/Consultation/Consultation"
+import ScrollToTop from "./components/layouts/ScrollToTop"
 
 function App() {
 
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />

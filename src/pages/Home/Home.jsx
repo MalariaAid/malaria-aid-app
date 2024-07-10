@@ -19,7 +19,7 @@ const Home = () => {
         <article className='grid grid-col-1 lg:grid-cols-12 w-full p-4 lg:p-16  gap-5 lg:gap-20'>
           <div className="col-span-12 lg:col-span-4 order-1 lg:order-none">
             <div className="flex flex-col gap-y-5">
-              <h2 className='text-5xl font-bold'>Consultation</h2>
+              <h2 className='text-4xl lg:text-5xl font-bold'>Consultation</h2>
               <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur. Volutpat sollicitudin enim fusce molestie tortor purus id at.  Positive Malaria</p>
               <button className='bg-[#0f6429] hover:bg-[#308b4c] w-max duration-300 p-2.5 px-6 rounded-md text-white '>Get Started</button>
             </div>
@@ -40,7 +40,7 @@ const Home = () => {
 
           <div className="col-span-12 lg:col-span-4">
             <div className="flex flex-col gap-y-5">
-              <h2 className='text-5xl font-bold'>Testing</h2>
+              <h2 className='text-4xl lg:text-5xl font-bold'>Testing</h2>
               <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur. Volutpat sollicitudin enim fusce molestie tortor purus id at.  Positive Malaria</p>
               <button className='bg-[#0f6429] hover:bg-[#308b4c] w-max duration-300 p-2.5 px-6 rounded-md text-white '>Get Started</button>
             </div>
@@ -53,7 +53,7 @@ const Home = () => {
           
           <div className="col-span-12 lg:col-span-4 self-center order-1 lg:order-none">
             <div className="flex flex-col gap-y-5">
-              <h2 className='text-5xl font-bold'>Net Request</h2>
+              <h2 className='text-4xl lg:text-5xl font-bold'>Net Request</h2>
               <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur. Volutpat sollicitudin enim fusce molestie tortor purus id at.  Positive Malaria</p>
               <button className='bg-[#0f6429] hover:bg-[#308b4c] w-max duration-300 p-2.5 px-6 rounded-md text-white '>Request for a net</button>
             </div>
@@ -99,7 +99,7 @@ const Home = () => {
       </div>
 
       <div className="w-full mb-8 flex flex-col items-center gap-5 gap-y-8 lg:max-w-xl mx-auto p-4 py-10">
-        <h2 className='text-4xl lg:text-4xl font-bold'>Find A Centre</h2>
+        <h2 className='text-4xl lg:text-5xl font-bold'>Find A Centre</h2>
         <form className='w-full flex flex-col gap-3 gap-y-5'>
           <input onChange={(event) => setNewsletterInput(event.target.value)} value={newletterInput} className='p-3.5 border rounded-2xl bg-[#e7efea] placeholder:gray-600' type="text" name='location' id='location' placeholder='Current location' />
           <button type='button' className='bg-[#0f6429] hover:bg-[#308b4c] w-full duration-300 p-2.5 px-6 rounded-md text-white '>Find A Centre</button>

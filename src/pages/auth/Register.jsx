@@ -51,8 +51,8 @@ const Register = () => {
                 <input onChange={handleChangeInput} value={signinInput.confirm_password} autoComplete='off' name='confirm_password' id='confirm_password' type="password" placeholder='Confirm password' className='w-full p-3 bg-[#e7efea] rounded-lg' />
               </div>
              
-              <div className="flex items-center justify-between">
-                <label htmlFor="remember">
+              <div className="flex items-center justify-between text-sm">
+                <label htmlFor="remember" className='flex items-center gap-x-1'>
                   <input onChange={handleChangeInput} checked={signinInput.remember} className='mr-1' type="checkbox" name="remember" id="remember" />
                     I accept the <Link className='text-[#308b4c]'>terms</Link> and <Link className='text-[#308b4c]'>conditions</Link>
                 </label>

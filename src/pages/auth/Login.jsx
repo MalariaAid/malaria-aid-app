@@ -41,8 +41,8 @@ const Login = () => {
                 <label htmlFor="password">Password:</label>
                 <input onChange={handleChangeInput} value={signinInput.password}  autoComplete='off' name='password' id='password' type="password" placeholder='Enter password' className='w-full p-3 bg-[#e7efea] rounded-lg' />
               </div>
-              <div className="flex items-center justify-between">
-                <label htmlFor="remember">
+              <div className="flex items-center justify-between text-sm">
+                <label htmlFor="remember" className='flex items-center'>
                   <input onChange={handleChangeInput} checked={signinInput.remember} className='mr-1' type="checkbox" name="remember" id="remember" />Remember me
                 </label>
                 <Link to={"/forgot-password"}>Forgot Password?</Link>
